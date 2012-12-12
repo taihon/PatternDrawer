@@ -14,6 +14,7 @@ namespace PatternDrawer
         public Form1()
         {
             InitializeComponent();
+            //asdf
         }
     }
 }
