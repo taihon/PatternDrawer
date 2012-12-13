@@ -1,16 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <root>
-  <figure type="polygon">
-    <point x ="1.0" y="1.0"></point>
-    <point x="2.0" y ="2.0"></point>
-    <point x ="3.0" y="5.0"></point>
-  </figure>
-  <figure type="line">
-    <point x="1.0" y="1.0"></point>
-    <point x="2.0" y="1.0"></point>
-  </figure>
-  <figure type="arcpart">
-    <radius>5.0</radius>
-    <point x="1.0" y="5.0"></point>
-  </figure>
+  <pattern type ="skirt">
+    <parameters>
+      <parameter name="poluobhvatTalii">1</parameter>
+      <parameter name="poluobhvatBeder">2</parameter>
+      <parameter name="dlinaSpiniDoTalii">3</parameter>
+      <parameter name="dlinaTaliiDoPolaSperedi">4</parameter>
+      <parameter name="dlinaTaliiDoPolaSzadi">5</parameter>
+      <parameter name="dlinaTaliiDoPolaSboku">6</parameter>
+      <parameter name="dlinaYubki">7</parameter>
+      <parameter name="pribavkaKPoluobhvatuTalii">8</parameter>
+      <parameter name="pribavkaKPoluobhvatuBeder">9</parameter>
+      <parameter name="NijniyKray">10</parameter>      
+    </parameters>
+    <figure type="polygon">
+      <point x ="1.0" y="1.0"></point>
+      <point x="2.0" y ="2.0"></point>
+      <point x ="3.0" y="5.0"></point>
+    </figure>
+    <figure type="line">
+      <point x="1.0" y="1.0"></point>
+      <point x="2.0" y="1.0"></point>
+    </figure>
+    <figure type="arcpart">
+      <radius>5.0</radius>
+      <point x="1.0" y="5.0"></point>
+    </figure>
+  </pattern>
 </root>

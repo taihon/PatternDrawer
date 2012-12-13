@@ -77,7 +77,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Points.xml" />
+    <Content Include="Points.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
